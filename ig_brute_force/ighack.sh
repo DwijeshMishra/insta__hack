@@ -129,11 +129,11 @@ elif [[ $option == 4 || $option == 04 ]]; then
 cd ig_brute_force/core
 bash update.sh
 elif [[ $option == 5 || $option == 05 ]]; then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ
 banner
 menu1
 elif [[ $option == 6 || $option == 06 ]]; then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ
 banner
 menu1
 elif [[ $option == 7 || $option == 07 ]]; then
@@ -338,17 +338,17 @@ then
 help
 elif [ "$opts" = "2" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2>/dev/null
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2
 clear
 help
 elif [ "$opts" = "3" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2>/dev/null
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2
 clear
 help
 elif [ "$opts" = "4" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2>/dev/null
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2 
 clear
 help
 elif [ "$opts" = "5" ];
