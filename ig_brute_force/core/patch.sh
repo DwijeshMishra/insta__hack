@@ -77,7 +77,6 @@ echo
 printf "                     \e[96m["
 # While process is running...
 while git clone https://github.com/noob-hackers/patchupdateznh 2> /dev/null; do 
-    printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
 printf "\e[96m]\e[0m"
