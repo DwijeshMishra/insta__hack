@@ -79,7 +79,6 @@ echo -e '\e[91m
 printf "\n"
 printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
 printf "\n"
-printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 }
 baner1(){
@@ -106,16 +105,10 @@ echo -e '\e[91m
 printf "\n"
 printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
 printf "\n"
-printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96 Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 }
 echo 
 menu1(){
-printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Auto Attack\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m6\e[0m\e[1;92m]\e[0m\e[1;93m Chat now\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m7\e[0m\e[1;92m]\e[0m\e[1;93m Help\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m8\e[0m\e[1;92m]\e[0m\e[1;93m More\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m9\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
 if [[ $option == 1 || $option == 01 ]]; then
 cd $HOME/insta-hack/ig_brute_force/main
@@ -299,13 +292,7 @@ echo -e '\e[91m
                  ─▐─█────█─▌─
                  ────▌──▐────
 '
-echo -e "\e[93m                  CALL ME \e[92mNITRO" | pv -qL 10
-echo -e "\e[93m             IAM FROM \e[92mNOOB HACKERS" | pv -qL 10
-echo -e "\e[93m       IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
-echo -e "\e[93m             HOPE YOU LIKE THIS SCRIPT" | pv -qL 10
-echo -e "\e[93m         OOPS... I TALK A LOT SRY FOR THAT " | pv -qL 10
-echo -e "\e[93m        MY WEBSITE:\e[92m www.noob-hackers.com\e[0m" | pv -qL 10
-echo -e "\e[92m                BYEE.............." | pv -qL 10
+
 sleep 8.0
 baner1
 menu1
@@ -338,17 +325,17 @@ then
 help
 elif [ "$opts" = "2" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ
 clear
 help
 elif [ "$opts" = "3" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ
 clear
 help
 elif [ "$opts" = "4" ];                             
 then
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ 2 
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCj9JfF0CSRhRe1NHYtJUmUQ
 clear
 help
 elif [ "$opts" = "5" ];
